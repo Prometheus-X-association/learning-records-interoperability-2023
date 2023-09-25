@@ -1,4 +1,4 @@
-[Interoperability of Learning Records: State-of-the-Art in 2023](README.md?fileId=116427)
+[Interoperability of Learning Records: State-of-the-Art in 2023](/)
 
 ## 7\. Case studies
 
