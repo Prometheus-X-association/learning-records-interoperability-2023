@@ -181,7 +181,7 @@ Here is how Ben Clark of Rustici Software describes the value cmi5 adds to xAP
 
 Since cmi5 was first released in 2016, there’s been a missing piece that has slowed its adoption. From development to procurement, tools are needed to support adoption of cmi5 and xAPI both within the Department of Defense (DoD) and the industry as a whole. Most importantly, there has not been an authoritative source or governance of the cmi5 specification as we have seen with the xAPI LRS conformance test suite and the SCORM conformance test suite. [cmi5 CATAPULT](https://xapi.com/cmi5/cmi5-project-catapult/) aims to help fill those needs.
 
-![cmi5-catapult.png](https://github.com/inokufu/learning-records-interoperability-2023/blob/master/img/cmi5-catapult.png?raw=true)
+![cmi5-catapult.png](/img/cmi5-catapult.png?raw=true)
 
 ### 3\.5 Interoperability between xAPI and IMS Caliper
 
