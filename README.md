@@ -10,6 +10,15 @@ As a result, Inokufu was tasked, within the Prometheus-X ecosystem, to conduct a
 
 This study is divided into 9 parts as follows:
 
+1. [Introduction](/1-introduction.md)
+2. [Methodology](/2-methodology.md)
+3. [Interoperability of Learning Records standards](/3-interoperability-standards.md)
+4. [Interoperability of Learning Management System](/4-interoperability-lms.md)
+5. [Interoperability of Learning Record Store](/5-interoperability-lrs.md)
+6. [Interoperability of Authoring tools](/6-interoperability-authoring-tools.md)
+7. [Case studies](/7-case-studies.md)
+8. [Discussion](/8-discussion.md)
+9. [Conclusion & Recommendations](/9-conclusions.md)
 
 ## Contribution guidelines
 
