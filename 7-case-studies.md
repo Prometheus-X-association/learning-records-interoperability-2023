@@ -37,6 +37,8 @@ Moreover, this approach does not exclude interactions with innovative solutions 
 
 As one of the major MOOC platform in France, FUN has a high trafic and thus was confronted to the limited scalability of conventional LRS. As a result, they have developed their internal LRS to manage millions of learning records they collect each day.
 
+![FUN-mooc-learning-records-warehouse.png](/img/fun-learning-record-warehouse.png?raw=true)
+
 Among the tools they have developed internally, they have open sourced [Ralph](https://github.com/openfun/ralph) which is a toolbox for learning analytics.
 Ralph can be used as a:
 
