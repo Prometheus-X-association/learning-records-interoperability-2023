@@ -87,29 +87,29 @@ According to xAPI, the corresponding JSON for the above example will look like t
 
 ```json
 {
-  "actor": {
-    "name": "John",
-    "objectType": "Agent"
-  },
-  "verb": {
-    "id": "http://adlnet.gov/expapi/verbs/completed",
-    "display": {
-      "en-US": "completed"
-    }
-  },
-  "object": {
-    "id": "http://example.com/MatheMaticsCourse",
-    "definition": {
-      "name": {
-        "en-US": "Mathematics Course"
-      },
-      "description": {
-        "en-US": "The Mathematics Course that John completed"
-      }
-    },
-    "objectType": "Activity"
-  },
-  "timestamp": "2022-01-19T10:34:00Z"
+    "actor": {
+        "name": "John",
+        "objectType": "Agent"
+    },
+    "verb": {
+        "id": "http://adlnet.gov/expapi/verbs/completed",
+        "display": {
+            "en-US": "completed"
+        }
+    },
+    "object": {
+        "id": "http://example.com/MatheMaticsCourse",
+        "definition": {
+            "name": {
+                "en-US": "Mathematics Course"
+            },
+            "description": {
+                "en-US": "The Mathematics Course that John completed"
+            }
+        },
+        "objectType": "Activity"
+    },
+    "timestamp": "2022-01-19T10:34:00Z"
 }
 ```
 
@@ -125,12 +125,12 @@ Here's an example of what that might look like:
 
 ```json
 {
-  ...
-  "context": {
-    "extensions": {
-      "http://example.com/used_safety_equipment": true
-    }
-  }
+    ...
+    "context": {
+        "extensions": {
+            "http://example.com/used_safety_equipment": true
+        }
+    }
 }
 ```
 
@@ -231,22 +231,23 @@ See example in spec here: https://www.imsglobal.org/spec/caliper/v1p2
 
 Here is an example of an IMS Caliper Analytics JSON-LD event statement. Please note that this example shows a simple reading event where a student has viewed a reading material:
 
+
 ```json
 {
-  "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
-  "id": "urn:uuid:a50ca17f-5971-47bb-8fca-4e6e6879001d",
-  "type": "ReadingEvent",
-  "actor": {
-    "id": "https://example.edu/user/554433",
-    "type": "Person"
-  },
-  "action": "Viewed",
-  "object": {
-    "id": "https://example.com/etextbook/2018/geometry/chapter1",
-    "type": "DigitalResource",
-    "name": "Chapter 1"
-  },
-  "eventTime": "2018-08-01T06:00:00.000Z"
+    "@context": "http://purl.imsglobal.org/ctx/caliper/v1p1",
+    "id": "urn:uuid:a50ca17f-5971-47bb-8fca-4e6e6879001d",
+    "type": "ReadingEvent",
+    "actor": {
+        "id": "https://example.edu/user/554433",
+        "type": "Person"
+    },
+    "action": "Viewed",
+    "object": {
+        "id": "https://example.com/etextbook/2018/geometry/chapter1",
+        "type": "DigitalResource",
+        "name": "Chapter 1"
+    },
+    "eventTime": "2018-08-01T06:00:00.000Z"
 }
 ```
 
