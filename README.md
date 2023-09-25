@@ -4,7 +4,7 @@
 
 Learning Records are available in many formats, either standardized (xAPI, SCORM, IMS Caliper, cmi5) or proprietary (Google Classroom, MS Teams, csv, etc). This wide vairety of format is a barrier to many use cases of learning records as this prevent the easy combination and sharing of learning records datasets from multiple sources or organizations.
 
-As a result, Inokufu was tasked, within the Prometheus-X ecosystem, to conduct an exhaustive state of the art and quantitative study about the interoperability of Learning records.
+As a result, Inokufu was tasked, within the [DASES/Prometheus-X](https://prometheus-x.org/) ecosystem, to conduct an exhaustive state of the art and quantitative study about the interoperability of Learning records.
 
 ## Table of content
 
