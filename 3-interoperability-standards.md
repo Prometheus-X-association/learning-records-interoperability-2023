@@ -89,7 +89,8 @@ According to xAPI, the corresponding JSON for the above example will look like t
 {
     "actor": {
         "name": "John",
-        "objectType": "Agent"
+        "objectType": "Agent",
+        "mbox" : "mailto:john@example.com"
     },
     "verb": {
         "id": "http://adlnet.gov/expapi/verbs/completed",
