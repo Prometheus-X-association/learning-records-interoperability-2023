@@ -40,15 +40,17 @@ Learning Locker doesn't natively support SCORM or IMS Caliper.
 
 ### 5\.2 Trax LRS
 
-Trax LRS is a LRS that centralizes and processes the data gathered from learners' interactions for further analysis and reporting. The software is designed according to the xAPI specifications, making it capable of storing a wide variety of learning interaction data.
+[Trax LRS](https://traxlrs.com/) is a LRS that centralizes and processes the data gathered from learners' interactions for further analysis and reporting. The software is designed according to the xAPI specifications, making it capable of storing a wide variety of learning interaction data. 
 
 Trax LRS collects learning records by interacting with xAPI-compliant Activity Providers like LMS, mobile apps, and other similar environments. These providers send structured statements about learner activity to the LRS which captures and stores the information. xAPI statements are incredibly versatile, capable of capturing simple interactions like course completions, as well as more complex data like real-time simulations or offline learning experiences.
 
-Once collected, the data is stored in a MySQL or PostgreSQL database and can then be aggregated, filtered, and analyzed for various learning analytics purposes. Trax LRS stores data in a structured way to allow advanced querying and enables you to use this data to generate reports and drive learning analytics and insights that can inform and improve learning processes.
+Once collected, the data is stored in a MySQL (or PostgreSQL, MongoDB, TimescaleDB, Elasticsearch and OpenSearch) database and can then be aggregated, filtered, and analyzed for various learning analytics purposes. Trax LRS stores data in a structured way to allow advanced querying and enables you to use this data to generate reports and drive learning analytics and insights that can inform and improve learning processes.
 
-As for compatibility standards, Trax LRS is fully compatible with the xAPI standard, supporting both the basic and advanced xAPI features. This means that it can effectively import learning records from other xAPI-compliant Activity Providers, and export learning records to other xAPI-compliant systems.
+As for compatibility standards, Trax LRS is fully compatible with the xAPI standard and cmi5, supporting both the basic and advanced xAPI features. This means that it can effectively import learning records from other xAPI-compliant Activity Providers, and export learning records to other xAPI-compliant systems. 
 
-However, Trax LRS doesn't natively support other eLearning standards like SCORM and IMS Caliper.
+Trax LRS is especially compliant with the european regluations about data privacy (GDPR).
+
+Trax LRS doesn't natively support other eLearning standards like SCORM and IMS Caliper.
 
 ### 5\.3 SCORM Cloud (Rustici LRS)
 
