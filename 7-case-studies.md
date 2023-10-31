@@ -46,11 +46,22 @@ Ralph can be used as a:
 * command-line interface (CLI), to build data pipelines the UNIX-way™️,
 * HTTP API server, to collect xAPI statements (learning events) following the ADL LRS standard.
 
-### 7\.3 LOLAMETER
+### 7\.3 LOLA Project
 
-Within the university of Lorraine, the LORIA laboratory has a team of researcher dedicated to Learning Analytics: LOLA (Laboratoire Ouvert en Learning Analytics, or Open Laboratory in Learning Analytics). The Lola team focuses on Learning Analytics, which aim to make the vast amount of collected learning data readable and interpretable. The goal is to assist educational institutions facing challenges like massification, flexibility, personalization, or individualization of training. The use of interaction traces in learning situations, particularly through artificial intelligence and data mining techniques, allows for various types of feedback. This feedback can be directed towards the learner, tutor, trainer, peers, resource designer, or institution. It often comes in the form of synthetic indicators, predictors, visualization tools (like dashboards), or intervention systems such as personalized recommendation systems.
+Within the University of Lorraine, the LORIA laboratory includes a team of researchers dedicated to Learning Analytics.
+This team coordinated the [eFRAN/METAL project](https://metal.loria.fr/fr/) which began in 2016.
+One of the components of this project aims to design, develop and evaluate a set of Learning Analytics tools for individualized monitoring intended for students or teachers.
+This project led in particular to addressing the problem of the ethical collection of data from heterogeneous sources and to proposing the use of standards specific to e-education such as for example [xAPI](https://github.com/adlnet/xAPI-Spec).
+Details of this work can be found in the publication ([Learning analytics made in France: the METAL project](https://hal.science/hal-02090145v1).
 
-LOLA team addresses various aspects through five main functions:
+Since 2019, this team has been working on the LOLA project (Open Learning Analytics Laboratory), in collaboration with the French National Ministry of Education.
+This project consists of designing and creating a collaborative platform prototype allowing
+
+* on the one hand, to store datasets provided by educational technologies companies (EdTech) consisting of digital traces of student learning using educational applications and learning management systems (LMS)
+
+* and on the other hand, to make these dataset available to partners who aim to experiment and evaluate algorithms using these data with the intention of  applying them on the field of Learning Analytics.
+
+LOLA platform addresses various aspects through five main functions:
 
 * DATA: LOLA allows French research teams, Edtech companies, and educational institutions to share data corpora to test their models or algorithms and compare them on common data.
 * MODELS: LOLA provides the educational community with state-of-the-art open-source models, which educational institutions can test on their data sets and use in their own application context.
@@ -58,17 +69,26 @@ LOLA team addresses various aspects through five main functions:
 * EVALUATIONS: Several indicators are provided, allowing for the creation of a dashboard or the calculation of an aggregate score. These different indicators have been developed and tested in the context of various projects or collaborations.
 * SUPPORT: There is a real need for documentation and guides. This section offers various types of support tailored to different targets. Here, guides and charters that are identified as relevant and available in the Resources section are gathered. Finally, LOLA also allows teachers, students, and institutions to describe the actions they have taken and their impacts, in order to share their experience.
 
-The rapid spread of standards xAPI has resulted in an increased usage of LRS within digital learning systems.
+This project raises many concrete questions ranging from securing datasets to defining scenarios for experimenting with issues related to Learning Analytics applications.
+By this, we can note that of adoption of standards with the perspective of facilitating the creation, the understanding and the extraction of learning data.
+The choice was to move towards the xAPI standard.
 
-Various LRS software has been introduced to the market, with similar base functionalities (recording and retrieving xAPI statements), but many varying additional features. Non-functional requirements such as scalability, response time, and throughput may differ between LRSs. Therefore, the selection of an appropriate LRS is of high importance to an organization.
+* Concerning creation, The rapid spread of standards xAPI has resulted in an increased use of LRS within digital learning systems.
+This results in more and more archived data being available in this target format.
+
+* Regarding understanding, this standard is accompanied by the concept of [xAPI Profile](https://profiles.adlnet.gov/) which allows both
+(1) to describe the data formally,
+(2) to systematically document the different data description elements present in the datasets,
+(3) share the components with other organizations and (4) reuse the components already made public
+
+* Concerning data extraction, the LOLA platform integrates a standard LRS xAPI (see here [TRAX-LRS](https://traxlrs.com/)) which allows access to data in a standard way thanks to the proposed query language by the standard
 
 Recently, LOLA team has published an [operational framework](https://hal.science/hal-02985541v1.https://hal.science/hal-02985541v1) for analyzing the performance behavior of LRS under a set of test scenarios. Two open-source LRS were studied and analyzed using this framework: Learning Locker and Trax.
 
-As a tool to better evaluate the scalability of LRS, LOLA team has developper the Lolameter. This tool is a stress test tool for LRS. According to tests made with this tool, both Learning Lockers and Trax LRS loose more than 15% of statements when more than 500k statements are sent in short time.
+As a tool to better evaluate the scalability of LRS, LOLA team has develoed the Lolameter. This tool is a stress test tool for LRS. According to tests made with this tool, both Learning Lockers and Trax LRS loose more than 15% of statements when more than 500k statements are sent in short time.
 
 With the aim to provide a benchmarking Framework to help in the selection process of an LRS, the authors discussed performance requirements in the paper, [Towards an automated Framework for benchmarking Learning Record Stores: Performance Requirements and Scalability](https://hal.science/hal-02469663v1). A similar discussion is also found in "Trade-off between interoperability and data collection performance when designing an architecture for learning analytics".
 
-Furthermore, the METAL project, as detailed in another paper ([Learning analytics made in France: the METAL project](https://www.researchgate.net/publication/332250358_Learning_analytics_made_in_France_the_METAL_project)), is to improve the quality of teaching by focusing on all the aspects of a learning analytics environment. The METAL project also tackles different concerns of a learning analytics environment, such as data storage through the implementation of an LRS.
 
 ### 7\.4 T3network
 
